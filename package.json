@@ -36,8 +36,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
-    "rebuild": "npm rebuild && node-pre-gyp rebuild",
     "stress": "mocha --no-timeouts test/arduinoTest/stress.js",
     "test": "grunt --verbose"
   }
