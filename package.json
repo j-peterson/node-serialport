@@ -36,7 +36,11 @@
   },
   "license": "MIT",
   "scripts": {
+<<<<<<< 34fe124d9af38293d5db19b434e37b79c9e141ea
     "stress": "mocha --no-timeouts test/arduinoTest/stress.js",
+=======
+    "install": "node-gyp rebuild",
+>>>>>>> no message
     "test": "grunt --verbose"
   }
 }
