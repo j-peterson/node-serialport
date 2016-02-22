@@ -31,7 +31,6 @@
   },
   "license": "MIT",
   "scripts": {
-    "install": "node-pre-gyp install --fallback-to-build",
     "test": "grunt --verbose"
   }
 }
