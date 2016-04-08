@@ -8,17 +8,13 @@
 
 // 3rd Party Dependencies
 var debug = require('debug')('serialport');
-<<<<<<< 65b20d11d9e1157a1e87a1b46d8c284f200a1e4d
-=======
-
-var SerialPortBinding = require(__dirname + '/build/Release/serialport.node');
->>>>>>> no message
 
 // shims
 var assign = require('object.assign').getPolyfill();
 
 // Internal Dependencies
-var SerialPortBinding = require('bindings')('serialport.node');
+var SerialPortBinding = require(__dirname + '/build/Release/serialport.node');
+// var SerialPortBinding = require('bindings')('serialport.node');
 var parsers = require('./lib/parsers');
 var listUnix = require('./lib/list-unix');
 
